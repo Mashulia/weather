@@ -40,5 +40,4 @@ function showCityWeatherData() {
 WEATHER_UI.SEARCH.addEventListener("submit", getCityWeatherData)
 WEATHER_UI.SEARCH.addEventListener("submit", showCityWeatherData)
 
-
 toggleTab()
