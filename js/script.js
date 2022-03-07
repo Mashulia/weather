@@ -8,8 +8,8 @@ const WEATHER_UI = {
   WEATHER_ICON: document.querySelector('.screen__now-icon')
 }
 
-const SERVER_URL = 'http://api.openweathermap.org/data/2.5/weather';
-const ICON_URL = 'http://openweathermap.org/img/wn/'
+const SERVER_URL = 'https://api.openweathermap.org/data/2.5/weather';
+const ICON_URL = 'https://openweathermap.org/img/wn/'
 const API_KEY = 'f660a2fb1e4bad108d6160b7f58c555f';
 let cityName = 'Aktobe';
 let cityData;
