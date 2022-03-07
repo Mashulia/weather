@@ -116,13 +116,15 @@
   line-height: 82px;
 }
 
+
 .screen__now-icon {
   display: block;
   margin: 0 auto;
   margin-bottom: 90px;
   width: 78px;
   height: 60px;
-  background: url("../img/cloud.png") center no-repeat;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .screen__now-bottom {
